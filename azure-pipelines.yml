@@ -23,7 +23,7 @@ steps:
     mavenAuthenticateFeed: false
     effectivePomSkip: false
     sonarQubeRunAnalysis: false
-    - script: echo 'Building and running unit tests completed successfully.'
+- script: echo 'Building and running unit tests completed successfully.'
 
 - task: CopyFiles@2
   inputs:
